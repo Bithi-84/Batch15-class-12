@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url(images/sea\ \(2\).jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: rgb(17, 255, 0);
+}
+
+.project{
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.project-1{background-image: url(images/nice.jpg);
+    width: 32.333%;
+    float: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.project-2{
+    background-image: url(images/sea\ nice.jpg);
+    width: 32.333%;
+    float: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: rgb(17, 233, 9);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-3{
+    background-image: url(images/sea\ \(2\).jpg);
+    width: 32.333%;
+    float: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-4{
+    background-image: url(images/sea.jpg);
+    width: 32.333%;
+    float: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-5{
+    background-image: url(images/nice.jpg);
+    width: 32.333%;
+    float: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: rgb(129, 25, 204);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-6{
+    background-image: url(images/Bird\ Pic.jpg);
+    width: 32.333%;
+    float: left;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: rgb(49, 189, 207);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer{
+    height: 150px;
+    background-color: rgb(8, 8, 9);
+    color: antiquewhite;
+    margin-top: 5px;
+}
+
+.footeritem{
+    width: 33%;
+    float: left;
+    margin-top: 5px;
+}
+
+.link{
+    text-decoration:none ;
+    color: antiquewhite;
+    display: block;
+    margin-top: 3px;
+}
+
+/* Device Responsive... */
+@media screen and (max-width:697px){
+   .hero{
+    color: red;
+    height: 200px;
+   }
+}
+
+@media screen and (max-width:998px){
+    .project-1{
+        width: 48.5%;
+    }
+    
+}
+
+@media screen and (max-width:998px){
+    .project-2{
+        width: 48.5%;
+    }
+    
+}
+
+@media screen and (max-width:998px){
+    .project-3{
+        width: 48.5%;
+    }
+    
+}
+
+@media screen and (max-width:998px){
+    .project-4{
+        width: 48.5%;
+    }
+    
+}
+
+@media screen and (max-width:998px){
+    .project-5{
+        width: 48.5%;
+    }
+    
+}
+
+@media screen and (max-width:998px){
+    .project-6{
+        width: 48.5%;
+    }
+    
+}
+
+@media screen and (max-width:696px){
+    .project-1{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:696px){
+    .project-2{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:696px){
+    .project-3{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:696px){
+    .project-4{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:696px){
+    .project-5{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:696px){
+    .project-6{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:484px){
+    .footeritem{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:468px){
+    .footeritem{
+        width: 32%;
+    }
+}
